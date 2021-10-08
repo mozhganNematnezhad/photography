@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link href="fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/css/style.css">
+    <link rel="stylesheet" href="style/css/flaticon.css">
+    <link rel="stylesheet" href="style/css/themify-icons.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+    <!-- <link rel="stylesheet" href="style/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/css/owl.theme.default.min.css"> -->
+    <link rel="stylesheet" href="style/css/swiper.min.css">
+
+    <title>Pentax Photography</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg  fixed-top" id="mainNav">
+        <div class="container">
+
+            <a class="navbar-brand" href="#home">
+                <img src="../pentax/img/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#my_navbar"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="my_navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#home">home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">about</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger " href="#services">services </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link  js-scroll-trigger" href="#project">project </a>
+                    </li>
+
+                    <li class="dropdown nav-item submenu d-none d-lg-block">
+                        <a href="#blog" target="_blank" class="dropdown-toggle nav-link" data-toggle="dropdown"
+                            data-hover="dropdown">blog</a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item"><a href="" target="_blank" class="megamenu megamenu1">blog</a></li>
+                            <li class="nav-item"><a href="#" class="megamenu">blog detail</a></li>
+                            <li class="nav-item"><a href="#" class="megamenu">project detail</a></li>
+                            <li class="nav-item"><a href="#" class="megamenu mega_price megamenu2">pricing</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class=" nav-item d-lg-none">
+                        <a href="#blog" target="_blank" class="nav-link">blog</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="#contact">contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+
+    <header id="home" class="">
+        <div id="banner" class="container">
+            <div class="row  align-items-center mr-5" style="height: 145vh;">
+                <div class="col">
+                    <div class="banner-heading">
+                        <h1> i am <br> <span class="basecolor">Professional</span><br>
+                            Photographer</h1>
+                        <p>It seasons. Bearing in one years forth saying. i love ....</p>
+                        <a class="main_btn" href="#">view portfolio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <section id="portfolio_area" class="heading">
+        <div class="container">
+            <div class="row">
+                <div class="area-heading">
+                    <h3 class="">Check <span>Recent</span> Work</h3>
+                    <p>She'd earth that midst void creeping him above seas.</p>
+                </div>
+            </div>
+
+            <div class="filters portfolio_filter">
+                <div id="myBtnContainer">
+                    <button class="btn active" onclick="filterSelection('all')"> all</button>
+                    <button class="btn" onclick="filterSelection('wedding')"> wedding</button>
+                    <button class="btn" onclick="filterSelection('motion')"> motion</button>
+                    <button class="btn" onclick="filterSelection('portrait')"> portrait</button>
+                    <button class="btn" onclick="filterSelection('fashion')"> fashion</button>
+                </div>
+            </div>
+
+
+            <div class="row mb-5">
+                <div class=" col-md-6 col-lg-4 column">
+                    <div class="portfolio_content">
+                        <div class="portfolio all fashion motion filterDiv">
+                            <img src="img/project/1.jpg" class="img-fluid " style="width:100%">
+                            <div class="middle">
+                                <span class="text">fashion</span>
+                                <h4 class="text">
+                                    <a href="#">Fashion Photography </a>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="portfolio all wedding motion portrait filterDiv">
+                            <img src="img/project/4.jpg" class="img-fluid" style="width:100%">
+                            <div class="middle">
+                                <span class="text">construction</span>
+                                <h4 class="text">
+                                    <a href="#">Desert Work.Dubai </a>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="portfolio all wedding motion fashion filterDiv">
+                            <img src="img/project/5.jpg" class="img-fluid" style="width:100%">
+                            <div class="middle">
+                                <span class="text">construction</span>
+                                <h4 class="text">
+                                    <a href="#">Desert Work.Dubai </a>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-6 col-lg-8 column">
+                    <div class="portfolio_content">
+                        <div class="portfolio all motion fashion portrait filterDiv  ">
+                            <img src="img/project/2.jpg" class="img-fluid imgb-1" style="width:100%">
+                            <div class="middle__2 middle">
+                                <span class="text">construction</span>
+                                <h4 class="text">
+                                    <a href="#">Desert Work.Dubai </a>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="portfolio all wedding fashion filterDiv">
+                            <img src="img/project/6.jpg" class="img-fluid imgb-2" style="width:100%">
+                            <div class="middle__3 middle">
+                                <span class="text">construction</span>
+                                <h4 class="text">
+                                    <a href="#">Desert Work.Dubai </a>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="offer" class="heading">
+        <div class="container">
+            <div class="area-heading">
+                <h3 class="">what <span>we</span> offer</h3>
+                <p>She'd earth that midst void creeping him above seas.</p>
+            </div>
+
+
+
+            <div class="row dir">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card mb-md-3">
+                        <span class="flaticon-balloon icon text-center"></span>
+                        <div class="card-body">
+                            <h5 class="card-title">Weeding Photography</h5>
+                            <p class="card-text">You're which creepeth were yielding kind,
+                                divide sixten po gatherin all first fill Seed wherein life.
+                                Years one fifth.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <span class="flaticon-camera  icon text-center"></span>
+                        <div class="card-body">
+                            <h5 class="card-title">Eventy Coverage</h5>
+                            <p class="card-text">You're which creepeth were yielding kind,
+                                divide sixten po gatherin all first fill Seed wherein life.
+                                Years one fifth.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <span class="flaticon-send icon text-center"></span>
+                        <div class="card-body">
+                            <h5 class="card-title">Property Tours</h5>
+                            <p class="card-text">You're which creepeth were yielding kind,
+                                divide sixten po gatherin all first fill Seed wherein life.
+                                Years one fifth.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <span class="flaticon-leaf icon text-center"></span>
+                        <div class="card-body">
+                            <h5 class="card-title">Nature Photography</h5>
+                            <p class="card-text">You're which creepeth were yielding kind,
+                                divide sixten po gatherin all first fill Seed wherein life.
+                                Years one fifth.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="price" class="heading">
+        <div class="container">
+            <div class="area-heading price_heading">
+                <h3>Perfect <span>Price</span> Plan</h3>
+                <p>She'd earth that midst void creeping him above seas.</p>
+            </div>
+
+
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <div class=" text-center card-priceTable">
+                        <div class="priceTable-header">
+                            <H3> weeding</H3>
+                            <p class="priceTable-pa">Attend only first day</p>
+                            <h1 class="priceTable-price">
+                                <span class="price">$</span>
+                                96.00
+                            </h1>
+                        </div>
+                        <ul class="priceTable-list">
+                            <li><span class="position"><i class="ti-check"></i></span> Unlimited Entrance</li>
+                            <li><span class="position"><i class="ti-check"></i></span> Comfortable Seat</li>
+                            <li><span class="position"><i class="ti-check"></i></span> Paid Certificate</li>
+                            <li><span class="negetive"><i class="ti-close"></i></span> Day One Workshop</li>
+                            <li><span class="negetive"><i class="ti-close"></i></span> One Certificate</li>
+                        </ul>
+                        <div class="priceTable-footer">
+                            <a class="main_btn pr_main_btn" href="#">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4">
+                    <div class=" text-center card-priceTable">
+                        <div class="priceTable-header">
+                            <H3> Studio</H3>
+                            <p class="priceTable-pa">Attend only first day</p>
+                            <h1 class="priceTable-price">
+                                <span class="price">$</span>
+                                76.00
+                            </h1>
+                        </div>
+                        <ul class="priceTable-list">
+                            <li><span class="position"><i class="ti-check"></i></span> Unlimited Entrance</li>
+                            <li><span class="position"><i class="ti-check"></i></span> Comfortable Seat</li>
+                            <li><span class="position"><i class="ti-check"></i></span> Paid Certificate</li>
+                            <li><span class="negetive"><i class="ti-close"></i></span> Day One Workshop</li>
+                            <li><span class="negetive"><i class="ti-close"></i></span> One Certificate</li>
+                        </ul>
+                        <div class="priceTable-footer">
+                            <a class="main_btn pr_main_btn" href="#">Book Now</a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="col-12 col-lg-4">
+                    <div class=" text-center card-priceTable">
+                        <div class="priceTable-header">
+                            <H3> Fashion</H3>
+                            <p class="priceTable-pa">Attend only first day</p>
+                            <h1 class="priceTable-price">
+                                <span class="price">$</span>
+                                86.00
+                            </h1>
+                        </div>
+                        <ul class="priceTable-list">
+                            <li><span class="position"><i class="ti-check"></i></span> Unlimited Entrance</li>
+                            <li><span class="position"><i class="ti-check"></i></span> Comfortable Seat</li>
+                            <li><span class="position"><i class="ti-check"></i></span> Paid Certificate</li>
+                            <li><span class="negetive"><i class="ti-close"></i></span> Day One Workshop</li>
+                            <li><span class="negetive"><i class="ti-close"></i></span> One Certificate</li>
+                        </ul>
+                        <div class="priceTable-footer">
+                            <a class="main_btn pr_main_btn" href="#">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Introduce" class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="img-styleBox">
+                        <div class="pattern"></div>
+                        <div class="Box">
+                            <img src="img/background/about1.jpg" alt="" class="styleBox-img1">
+                        </div>
+                        <div class="Box1">
+                            <img src="img/background/about2.jpg" alt="" class="styleBox-img2">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <h4>Let’s <br>
+                            Introduce About
+                            <br>
+                            Myself
+                        </h4>
+                        <p> Beginning blessed second a creepeth.
+                            Darkness wherein fish years good air whose after seed appear midst evenin</p>
+                        <p>
+                            Beginning blessed second a creepeth.
+                            Darkness wherein fish years good air whose after seed appear midst evenin appear
+                            void give third bearing divide one so
+                        </p>
+                        <a class="main_btn" href="#">learn more</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="client" class="heading">
+        <div class="container">
+            <div class="area-heading client_heading">
+                <h3>happy <span>client</span> says</h3>
+                <p>She'd earth that midst void creeping him above seas.</p>
+            </div>
+        </div>
+
+
+        <div class="row" style="margin-top:-50px ;">
+            <div class="container" style="margin-bottom: 10rem;">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="col-12 content ">
+                                <div class="col-md-4 offset-md-1">
+                                    <div class="imagebox">
+                                        <img src="img/elements/tes1.jpg" alt="">
+
+                                    </div>
+                                </div>
+                                <div class="col-md-8  d-flex align-items-center">
+                                    <div class="testimonial__content">
+                                        <h3>Roman Castarian </h3>
+                                        <span>/</span>
+                                        <h6>Project manager, Mystry ltd</h6>
+                                        <div class="aboutbox">
+                                            <p>Also made from.
+                                                Give may saying meat there from heaven it lights face had is gathered
+                                                god
+                                                earth
+                                                light
+                                                for life may
+                                                itself shall whales made they're blessed whales also made from give may
+                                                saying meat.
+                                                There from heaven it
+                                                lights face
+                                                had</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-12 content ">
+                                <div class="col-md-4 offset-md-1">
+                                    <div class="imagebox">
+                                        <img src="img/elements/tes1.jpg" alt="">
+
+                                    </div>
+                                </div>
+                                <div class="col-md-8  d-flex align-items-center">
+                                    <div class="testimonial__content">
+                                        <h3>mozhgan nematnezhad </h3>
+                                        <span>/</span>
+                                        <h6>Project manager, Mystry ltd</h6>
+                                        <div class="aboutbox">
+                                            <p>Also made from.
+                                                Give may saying meat there from heaven it lights face had is gathered
+                                                god
+                                                earth
+                                                light
+                                                for life may
+                                                itself shall whales made they're blessed whales also made from give may
+                                                saying meat.
+                                                There from heaven it
+                                                lights face
+                                                had</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-12 content ">
+                                <div class="col-md-4 offset-md-1">
+                                    <div class="imagebox">
+                                        <img src="img/elements/tes1.jpg" alt="">
+
+                                    </div>
+                                </div>
+                                <div class="col-md-8  d-flex align-items-center">
+                                    <div class="testimonial__content">
+                                        <h3>Ali Ahmadi </h3>
+                                        <span>/</span>
+                                        <h6>Project manager, Mystry ltd</h6>
+                                        <div class="aboutbox">
+                                            <p>Also made from.
+                                                Give may saying meat there from heaven it lights face had is gathered
+                                                god
+                                                earth
+                                                light
+                                                for life may
+                                                itself shall whales made they're blessed whales also made from give may
+                                                saying meat.
+                                                There from heaven it
+                                                lights face
+                                                had</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Recent" class="heading">
+        <div class="container">
+            <div class="area-heading">
+                <h3>happy <span style="color: black;">client</span> says</h3>
+                <p>She'd earth that midst void creeping him above seas.</p>
+            </div>
+
+            <div class="row row-recent">
+                <div class="col-lg-4">
+                    <div class="card card-recent text-left">
+                        <div class="overflow">
+                            <img class="card-img-top img-fluid" src="img/blog/1.jpg" alt="Card image cap">
+                        </div>
+                        <div class="detail">
+                            <span class="company">company</span>
+                            <span class="date">feb 14,2019</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-left">Dry were bring you're created</h5>
+                            <p class="card-text">
+                                Great upon after said. Set may place dry said gathered to deserve on the place.</p>
+                            <a href="#" class="">READ MORE>></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card card-recent text-left">
+                        <div class="overflow">
+                            <img class="card-img-top img-fluid" src="img/blog/2.jpg" alt="Card image cap">
+                        </div>
+                        <div class="detail">
+                            <span class="company">company</span>
+                            <span class="date">feb 14,2019</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-left">Dry were bring you're created</h5>
+                            <p class="card-text">
+                                Great upon after said. Set may place dry said gathered to deserve on the place.</p>
+                            <a href="#" class="">READ MORE>></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card card-recent text-left">
+                        <div class="overflow">
+                            <img class="card-img-top img-fluid" src="img/blog/3.jpg" alt="Card image cap">
+                        </div>
+                        <div class="detail">
+                            <span class="company">company</span>
+                            <span class="date">feb 14,2019</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-left">Dry were bring you're created</h5>
+                            <p class="card-text">
+                                Great upon after said. Set may place dry said gathered to deserve on the place.</p>
+                            <a href="#" class="">READ MORE>></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-6 col-sm-6">
+                    <div class="footer-left">
+                        <h6>About Us</h6>
+                        <P> Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut
+                            labore dolore magna
+                            aliqua.</P>
+                        <p class="footer-copy"> Copyright ©2020 All rights reserved |
+                            This template is made with <i class="fas fa-heart icon"></i> by <span
+                                class="colorlib">Colorlib</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="footer-mid">
+                        <h6>Newsletter</h6>
+                        <p>Stay updated with our latest trends</p>
+
+                        <form action="">
+                            <div class="form-group">
+                                <label for="Email1"></label>
+                                <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp"
+                                    placeholder="Enter email"><i class="fas fa-arrow-right"></i>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 d-flex justify-content-center ">
+                    <div class="footer-right">
+                        <h6 >Follow Us</h6>
+                        <p>Let us be social</p>
+
+                        <div class="footer-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"> <i class="fab fa-twitter"></i></a>
+                            <a href="#"> <i class="fab fa-dribbble"></i></a>
+                            <a href="#"><i class="fab fa-behance"></i></a>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="style/jquery/jquery-3.4.1.min.js "></script>
+    <script src="style/js/popper.min.js "></script>
+    <script src="style/js/bootstrap.min.js "></script>
+    <!-- <script src="style/js/owl.carousel.min.js "></script> -->
+    <script src="style/js/swiper.min.js "></script>
+
+    <script src="style/js/script.js "></script>
+
+    <!-- برای blog -->
+    <script>
+        //     jQuery(document).ready(function(){
+        //     $(".dropdown").hover(
+        //         function() { $('.dropdown-menu', this).fadeIn("fast");
+        //         },
+        //         function() { $('.dropdown-menu', this).fadeOut("fast");
+        //     });
+        // });
+
+        $(function ($) {
+            if ($(window).width() > 768) {
+                $('.navbar .dropdown').hover(function () {
+                    $(this).find('.dropdown-menu').first().stop(true, true).delay(250).slideDown();
+
+                }, function () {
+                    $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideUp();
+
+                });
+
+                $('.navbar .dropdown > a').click(function () {
+                    location.href = this.href;
+                });
+
+            }
+        });
+
+
+
+
+    </script>
+
+</body>
+
+</html>
